@@ -28,6 +28,11 @@ onload = function () {
         here if abcd then he can't go in middle of the string
         it should remain in last charachter of the string
 
+
+        A new entry is put on the top of stack 
+        case    
+        1. if size of top is >= buffer new element
+        2. if different operation
     */
     textbox.onclick = function () {
         textbox.selectionStart = textbox.selectionEnd = textbox.value.length;
